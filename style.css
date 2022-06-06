@@ -1,0 +1,87 @@
+*{
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: grid;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.calc
+{
+    display: grid;
+    margin-top: 45px;
+   
+   
+}
+.display
+{
+    height: 70px;
+    background-color: black;
+    padding: 0 55px;
+    color: white;
+    font-size: 45px;
+    direction: rtl;
+    border: none;
+}
+.buttons
+{
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+
+}
+
+.button
+{
+    display: grid;
+    justify-content: center;
+    height: 500px;
+    grid-template-rows: 4fr 1fr;
+}
+.buttons-1
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+.buttons-2
+{
+    display: flex;
+    height: 100px;
+
+}
+.button-0
+{
+    width: 200px;
+    border-radius: 65px;
+   
+}
+.button-point , .button-equal
+{
+    width: 100px;
+
+}
+.button-AC ,.button-C , .button-operator
+{
+    background: rgb(218, 218, 39);
+    color: white;
+} 
+.button-7 , .button-8 , .button-9 ,.button-4 , .button-5 , .button-6 ,.button-1 ,.button-2 ,.button-3 , .button-0 ,.button-point 
+{
+    background:rgb(92, 88, 88);
+    color: white;
+}
+.button-division , .button-multiplaid ,.button-submission ,.button-plus , .button-equal
+{
+    background: rgb(150, 130, 238);
+    color: white;
+}
+.buttons-label{
+    font-size: 30px;
+}
+.buttons:hover
+{
+    background-color: rgba(137, 43, 226, 0.672);
+}
